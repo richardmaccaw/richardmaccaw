@@ -12,9 +12,7 @@ export default function Layout({ children }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <main className="prose min-h-screen mx-auto py-6 sm:py-12">
-        {children}
-      </main>
+      <main className="prose min-h-screen mx-auto p-6">{children}</main>
     </>
   );
 }
